@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --navbar_color:rgb(51,51,51);
+    --navbar_hover_color:rgb(93, 92, 92);
+    --dark_greyish_background:rgb(37,37,41);
+    --red:rgb(185,4,21);
+    --blue:rgb(16,48,99);
+    --footer_color:rgb(51,51,51);
+}
+
+.navbar_section {
+    width: 100%;
+    font-size: 1.7rem;
+    color: white;
+    background-color: var(--navbar_color);
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    text-align: center;
+    width: 100px;
+    list-style: none;
+    padding: 10px 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;  
+}
+
+a:hover {
+    background-color: var(--navbar_hover_color);
+}
