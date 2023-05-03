@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
 
 :root {
@@ -17,6 +18,7 @@
 
 body{
     font-size: 1.6rem;
+    line-height: 30px;
 }
 
 p {
@@ -39,7 +41,7 @@ li {
     text-align: center;
     width: 100px;
     list-style: none;
-    padding: 10px 0;
+    padding-top: 10px;
 }
 
 a {
@@ -49,6 +51,8 @@ a {
 
 .navbar_section a:hover {
     background-color: var(--navbar_hover_color);
+    display: block;
+    padding-bottom: 10px;
 }
 
 .guitar_player_background {
@@ -56,15 +60,15 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
-    height: 800px;
+    height: 750px;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 220px;
     color: white;
 }
 
 .guitar_player_background h1{
     font-size: 3.6em;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .guitar_player_background h2{
@@ -73,7 +77,7 @@ a {
 }
 
 .guitar_player_background p{
-    width: 80%;
+    width: 77%;
     margin: 0 auto;
 }
 
@@ -102,7 +106,7 @@ a {
 .dark_grey_background button{
     background-color: var(--red);
     font-size: 1.5rem;
-    padding: 20px 12px;
+    padding: 20px 16px;
     color:  white;
     border: none;
     margin: 20px;
@@ -110,7 +114,7 @@ a {
 
 .dark_grey_background button:hover{
     background-color: rgb(248, 33, 33);
-    padding: 20px 12px;
+    padding: 20px 16px;
     cursor: pointer;
 }
 
@@ -148,10 +152,121 @@ a {
     color: white;
 }
 
+.white_background button:hover{
+    padding: 20px 15px;
+    background-color: rgb(35, 35, 255);
+    cursor: pointer;
+}
+
 .white_background img{
     border: 3px solid red;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .stars_background {
-    background-image: url();
+    background-image: url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+    color: white;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 560px;
+    text-align: center;
+}
+
+.stars_background h1{
+    padding-top: 200px;
+    font-size: 3rem;
+}
+
+.stars_background h3{
+    padding-top: 40px;
+    width: 79%;
+    margin: 0 auto;
+}
+
+.container{
+    color: var(--navbar_color);
+    display: flex;
+    justify-content: center;
+}
+
+.second_white_background{
+    padding-top: 40px;
+}
+
+.second_white_background img{
+    width: 38%;
+}
+
+.second_white_background .gift_card_details{
+    width: 38%;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.gift_card_details  h2{
+padding-bottom: 20px;
+}
+
+.gift_card_details p{
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+.gift_card_details .part_2{
+    padding: 15px 0;
+}
+
+.gift_card_details hr{
+    margin-bottom: 10px;
+}
+
+.gift_card_details a{
+    color: rgb(16,48,99);
+    font-size: 1.5rem;
+}
+
+.second_dark_grey_background {
+    background-color: var(--dark_greyish_background);
+}
+
+.card_container{
+    padding: 40px 0;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.card_container .card{
+    flex: 1;
+    padding-left: 10px;
+}
+
+.card h3{
+    color: rgb(204,204,204);
+}
+
+.card hr{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.card p{
+    font-size: 1.3rem;
+    color: rgb(204,204,204);
+    line-height: 22px;
+}
+
+footer{
+    background-color: var(--navbar_color);
+    text-align: center;
+}
+
+footer p{
+    font-size: 1.5rem;
+    padding: 14px;
+    color: white;
 }
