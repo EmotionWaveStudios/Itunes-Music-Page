@@ -57,6 +57,11 @@ a {
   font-size: 1.5rem;
 }
 
+.card a {
+  font-size: 1.4rem;
+  color: rgb(204, 204, 204);
+}
+
 .navbar_section a:hover {
   background-color: var(--navbar_hover_color);
   padding: 15px 10px;
@@ -273,11 +278,6 @@ footer p {
 .card li {
   list-style: none;
   line-height: 22px;
-}
-
-.card a {
-  font-size: 1.4rem;
-  color: rgb(204, 204, 204);
 }
 
 footer {
