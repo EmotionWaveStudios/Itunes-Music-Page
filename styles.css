@@ -49,11 +49,15 @@ p {
 a {
     text-decoration: none;
     color: white;  
+    transition: all 0.5s;
+
 }
 
 .navbar_section a:hover {
     background-color: var(--navbar_hover_color);
-    padding-bottom: 9px;
+    padding: 15px 10px;
+    max-width: 20px;
+    max-height: 15px;
 }
 
 .guitar_player_background {
@@ -268,7 +272,7 @@ a {
 }
 
 .card a{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: rgb(204,204,204);
 }
 
@@ -278,7 +282,27 @@ footer{
 }
 
 footer p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 14px;
     color: white;
+}
+
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+
+    .container img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .container .gift_card_details{
+        width: 80%;
+        margin: 0 auto;        
+    }
+
+    .card_container{
+        display: none;
+    }
 }
