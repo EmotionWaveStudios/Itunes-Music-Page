@@ -53,10 +53,10 @@ a {
 }
 
 .gift_card_details a {
-    color: rgb(16, 48, 99);
-    font-size: 1.5rem;
-  }
-  
+  color: rgb(16, 48, 99);
+  font-size: 1.5rem;
+}
+
 .navbar_section a:hover {
   background-color: var(--navbar_hover_color);
   padding: 15px 10px;
@@ -86,11 +86,11 @@ a {
 }
 
 footer p {
-    font-size: 1.6rem;
-    padding: 14px;
-    color: white;
-  }
-  
+  font-size: 1.6rem;
+  padding: 14px;
+  color: white;
+}
+
 .guitar_player_background p {
   width: 80%;
   margin: 0 auto;
@@ -131,13 +131,13 @@ footer p {
 }
 
 .white_background button {
-    border: none;
-    background-color: var(--blue);
-    padding: 20px 15px;
-    margin: 20px;
-    font-size: 1.5rem;
-    color: white;
-  }
+  border: none;
+  background-color: var(--blue);
+  padding: 20px 15px;
+  margin: 20px;
+  font-size: 1.5rem;
+  color: white;
+}
 
 .dark_grey_background button:hover {
   background-color: rgb(248, 33, 33);
