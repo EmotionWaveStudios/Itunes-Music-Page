@@ -13,7 +13,7 @@ This is a simple itunes webpage
 
 ## Live view
 
-[Itunes page]()
+[My Itunes Page](https://rad-dango-63748b.netlify.app/)
 
 ## Prerequisite
 
