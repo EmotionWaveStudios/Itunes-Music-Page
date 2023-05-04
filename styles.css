@@ -2,12 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-
+    font-family: 'PT Sans', sans-serif;
 }
 
 :root {
     font-size: 62.5%;
+    --whitish: rgb(244,244,244);
     --navbar_color:rgb(51,51,51);
     --navbar_hover_color:rgb(93, 92, 92);
     --dark_greyish_background:rgb(37,37,41);
@@ -18,30 +18,32 @@
 
 body{
     font-size: 1.6rem;
-    line-height: 30px;
+    line-height: 31px;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 2.1rem;
+    font-weight: 400;
+
 }
 
 .navbar_section {
     width: 100%;
-    font-size: 1.5rem;
-    color: white;
+    font-size: 1.6rem;
+    color: rgb(204,204,204);
     background-color: var(--navbar_color);
     position: fixed;
 }
 
-ul {
+.navbar_section ul {
     display: flex;
 }
 
-li {
+.navbar_section li {
     text-align: center;
     width: 100px;
     list-style: none;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 
 a {
@@ -51,8 +53,7 @@ a {
 
 .navbar_section a:hover {
     background-color: var(--navbar_hover_color);
-    display: block;
-    padding-bottom: 10px;
+    padding-bottom: 9px;
 }
 
 .guitar_player_background {
@@ -62,22 +63,22 @@ a {
     background-size: cover ;
     height: 750px;
     text-align: center;
-    padding-top: 220px;
+    padding-top: 225px;
     color: white;
 }
 
 .guitar_player_background h1{
-    font-size: 3.6em;
-    padding-bottom: 70px;
+    font-size: 6.4rem;
+    padding-bottom: 74px;
 }
 
 .guitar_player_background h2{
-    font-size: 3rem;
+    font-size: 3.2rem;
     padding-bottom: 40px;
 }
 
 .guitar_player_background p{
-    width: 77%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -85,22 +86,26 @@ a {
     background-color: var(--dark_greyish_background);
     color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 45px;
+    
 }
 
 .dark_grey_background h1 {
-    font-size: 3.8rem;
-    padding-bottom: 50px;
+    font-size: 4rem;
+    padding-bottom: 52px;
 }
 
 .dark_grey_background h2{
-    font-size: 3rem;
+    font-size: 3.2rem;
     padding-bottom: 40px;
 }
 
 .dark_grey_background h3{
-    width: 78%;
+    width: 77%;
+    font-size: 2.1rem;
     margin: 0 auto;
+    font-weight: 400;
+    line-height: 33px;
 }
 
 .dark_grey_background button{
@@ -137,8 +142,8 @@ a {
     padding-top: 75px;
 }
 
-.white_background h3{
-    width: 80%;
+.white_background p{
+    width: 77%;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -159,7 +164,6 @@ a {
 }
 
 .white_background img{
-    border: 3px solid red;
     width: 80%;
     margin: 0 auto;
 }
@@ -179,7 +183,7 @@ a {
     font-size: 3rem;
 }
 
-.stars_background h3{
+.stars_background p{
     padding-top: 40px;
     width: 79%;
     margin: 0 auto;
@@ -192,7 +196,8 @@ a {
 }
 
 .second_white_background{
-    padding-top: 40px;
+    background-color: var(--whitish);
+    padding: 40px 0;
 }
 
 .second_white_background img{
@@ -206,11 +211,11 @@ a {
 }
 
 .gift_card_details  h2{
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .gift_card_details p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 25px;
 }
 
@@ -252,12 +257,19 @@ padding-bottom: 20px;
 .card hr{
     margin-bottom: 20px;
     margin-top: 5px;
+    height: 2px;
+    border: none;
+    background-color: var(--navbar_color);
 }
 
-.card p{
+.card li{
+    list-style: none;
+    line-height: 22px;
+}
+
+.card a{
     font-size: 1.3rem;
     color: rgb(204,204,204);
-    line-height: 22px;
 }
 
 footer{
