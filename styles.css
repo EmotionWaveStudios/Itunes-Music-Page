@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --whitish: rgb(244, 244, 244);
+  --navbar_color: rgb(51, 51, 51);
+  --navbar_hover_color: rgb(93, 92, 92);
+  --dark_greyish_background: rgb(37, 37, 41);
+  --red: rgb(185, 4, 21);
+  --blue: rgb(16, 48, 99);
+  --footer_color: rgb(51, 51, 51);
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 31px;
+}
+
+p {
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.navbar_section {
+  width: 100%;
+  font-size: 1.6rem;
+  color: rgb(204, 204, 204);
+  background-color: var(--navbar_color);
+  position: fixed;
+}
+
+.navbar_section ul {
+  display: flex;
+}
+
+.navbar_section li {
+  text-align: center;
+  width: 100px;
+  list-style: none;
+  padding-top: 9px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+}
+
+.gift_card_details a {
+  color: rgb(16, 48, 99);
+  font-size: 1.5rem;
+}
+
+.card a {
+  font-size: 1.4rem;
+  color: rgb(204, 204, 204);
+}
+
+.navbar_section a:hover {
+  background-color: var(--navbar_hover_color);
+  padding: 15px 10px;
+  max-width: 20px;
+  max-height: 15px;
+}
+
+.guitar_player_background {
+  background-image: url(https://images.unsplash.com/photo-1530022351670-4caa0efc0b4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 750px;
+  text-align: center;
+  padding-top: 225px;
+  color: white;
+}
+
+.guitar_player_background h1 {
+  font-size: 6.4rem;
+  padding-bottom: 74px;
+}
+
+.guitar_player_background h2 {
+  font-size: 3.2rem;
+  padding-bottom: 40px;
+}
+
+footer p {
+  font-size: 1.6rem;
+  padding: 14px;
+  color: white;
+}
+
+.guitar_player_background p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.dark_grey_background {
+  background-color: var(--dark_greyish_background);
+  color: white;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.dark_grey_background h1 {
+  font-size: 4rem;
+  padding-bottom: 52px;
+}
+
+.dark_grey_background h2 {
+  font-size: 3.2rem;
+  padding-bottom: 40px;
+}
+
+.dark_grey_background h3 {
+  width: 77%;
+  font-size: 2.1rem;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.dark_grey_background button {
+  background-color: var(--red);
+  font-size: 1.5rem;
+  padding: 20px 16px;
+  color: white;
+  border: none;
+  margin: 20px;
+}
+
+.white_background button {
+  border: none;
+  background-color: var(--blue);
+  padding: 20px 15px;
+  margin: 20px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.dark_grey_background button:hover {
+  background-color: rgb(248, 33, 33);
+  padding: 20px 16px;
+  cursor: pointer;
+}
+
+.dark_grey_background p {
+  font-size: 1.5rem;
+}
+
+.dark_grey_background img {
+  width: 100%;
+  padding: 15px;
+}
+
+.white_background {
+  color: var(--navbar_color);
+  text-align: center;
+}
+
+.white_background h1 {
+  font-size: 3rem;
+  padding-top: 75px;
+}
+
+.white_background p {
+  width: 77%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.white_background button:hover {
+  padding: 20px 15px;
+  background-color: rgb(35, 35, 255);
+  cursor: pointer;
+}
+
+.white_background img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.stars_background {
+  background-image: url(https://images.unsplash.com/photo-1528818955841-a7f1425131b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+  color: white;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 560px;
+  text-align: center;
+}
+
+.stars_background h1 {
+  padding-top: 200px;
+  font-size: 3rem;
+}
+
+.stars_background p {
+  padding-top: 40px;
+  width: 79%;
+  margin: 0 auto;
+}
+
+.container {
+  color: var(--navbar_color);
+  display: flex;
+  justify-content: center;
+}
+
+.second_white_background {
+  background-color: var(--whitish);
+  padding: 40px 0;
+}
+
+.second_white_background img {
+  width: 38%;
+}
+
+.second_white_background .gift_card_details {
+  width: 38%;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+
+.gift_card_details h2 {
+  padding-bottom: 20px;
+}
+
+.gift_card_details p {
+  font-size: 1.6rem;
+  line-height: 25px;
+}
+
+.gift_card_details .part_2 {
+  padding: 15px 0;
+}
+
+.gift_card_details hr {
+  margin-bottom: 10px;
+}
+
+.second_dark_grey_background {
+  background-color: var(--dark_greyish_background);
+}
+
+.card_container {
+  padding: 40px 0;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  color: white;
+}
+
+.card_container .card {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.card h3 {
+  color: rgb(204, 204, 204);
+}
+
+.card hr {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  height: 2px;
+  border: none;
+  background-color: var(--navbar_color);
+}
+
+.card li {
+  list-style: none;
+  line-height: 22px;
+}
+
+footer {
+  background-color: var(--navbar_color);
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .container .gift_card_details {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .card_container {
+    display: none;
+  }
+}
