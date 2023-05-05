@@ -29,21 +29,32 @@ p {
 
 .navbar_section {
   width: 100%;
+  height: 40px;
   font-size: 1.6rem;
   color: rgb(204, 204, 204);
   background-color: var(--navbar_color);
   position: fixed;
 }
 
+.navbar_section a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.5s;
+  display: block;
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+ 
+}
+
 .navbar_section ul {
   display: flex;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .navbar_section li {
-  text-align: center;
-  width: 100px;
   list-style: none;
-  padding-top: 9px;
 }
 
 a {
@@ -64,9 +75,6 @@ a {
 
 .navbar_section a:hover {
   background-color: var(--navbar_hover_color);
-  padding: 15px 10px;
-  max-width: 20px;
-  max-height: 15px;
 }
 
 .guitar_player_background {
